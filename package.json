@@ -1,0 +1,19 @@
+{
+	"name": "simple-nodejs-express-back-end",
+	"version": "1.0.0",
+	"description": "simple nodejs - express backend application ",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js",
+		"start:server": "nodemon server.js",
+		"start:server-debug": "nodemon --inspect --inspect-brk server.js"
+	},
+	"author": "Ky Tran",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.4",
+		"nodemon": "^1.18.9"
+	}
+}
